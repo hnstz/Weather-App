@@ -12,6 +12,7 @@
     "dev": "vite"
   },
   "devDependencies": {
+    "prettier": "3.8.4",
     "vite": "^8.1.0"
   },
   "dependencies": {
