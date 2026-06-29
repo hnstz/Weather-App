@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script type="module" src="./script.js" defer></script>
+    <script type="module" src="./script/script.js" defer></script>
     <title>Weather App</title>
 </head>
 
@@ -26,12 +26,14 @@
                     </path>
             </svg>
         </button>
-        <button class="language-toggle">
+        <button class="language-toggle eng">
             <p class="eng">eng</p>
             <p class="ru">ru</p>
         </button>
     </div>
-    <label for="inputLocation">Enter the city</label>
+    <label for="inputLocation">
+        <p class="eng">Enter the city</p>
+    </label>
     <input type="text" id="inputLocation" placeholder="London">
     <button id="getBtn">get weather!</button>
 

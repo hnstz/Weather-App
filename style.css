@@ -40,8 +40,7 @@ html.dark{
 }
 
 .icon-moon,
-html.dark .icon-sun,
-.language-toggle .ru {
+html.dark .icon-sun{
     display: none;
 }
 
@@ -54,15 +53,16 @@ html.dark .icon-sun,
     width: 3ch;
 }
 
-.language-toggle .eng {
+.language-toggle.eng .eng{
     display: block;
 }
 
-.language-toggle.ru .eng {
+.language-toggle.eng .ru,
+.language-toggle .eng{
     display: none;
 }
 
-.language-toggle.ru .ru {
+.language-toggle .ru{
     display: block;
 }
 
