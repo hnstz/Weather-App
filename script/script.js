@@ -1,6 +1,6 @@
+import '../style.css';
 import getWeather from "./getWeather";
 import { printWeatherInfo, showAnimation } from "./printers";
-import '../style.css';
 
 const getWeatherBtn = document.getElementById("getBtn");
 getWeatherBtn.addEventListener("click", async () => {
